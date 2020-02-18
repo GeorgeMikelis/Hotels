@@ -29,20 +29,17 @@ li{
 }
 
 .favRevContainer{
-    border: cadetblue solid;
     display: flex;
     flex: 1;
 }
 
 .bookingsContainer{
     display: flex;
-    flex: 1;
-    border: cadetblue solid;
-    
+    flex: 3;
 }
 
 .bookingsBar {
-    width: 90%;
+    width: auto;
     height: 2.5rem;
     display: flex;
     background-color: #F15B25;
@@ -57,6 +54,10 @@ li{
     width: 90%;
 }
 
+.smallDescriptionText{
+    width: 70%;
+}
+
 .imgContainer{
     width: 7rem;
 }
@@ -69,13 +70,6 @@ li{
 .vl {
     border-left: 2px solid #F15B25;
     height: 6rem;
-}
-
-.smallDescriptionText{
-    width: 80%;
-    height: 6rem;
-    padding: 8px;
-    border: 1px solid #e8e8e8;
 }
 
 h3 {
