@@ -1,0 +1,15 @@
+.generic-container {
+  background-image: url(landingScreen.jpeg);
+  background-size: cover;
+}
+
+.form {
+  margin: auto;
+  min-width: 650px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px black;
+  opacity: 0.9;
+}

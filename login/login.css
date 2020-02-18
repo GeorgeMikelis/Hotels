@@ -1,0 +1,21 @@
+.login-form {
+    min-width: 450px;
+    max-height: 200px;
+    background-color: rgba(127, 127, 127, 0.5);
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+}
+
+button {
+    align-self: center;
+}
+
+.login-form * {
+    align-self: start;
+    margin-top: 0.5rem;
+}
+
+.generic-container {
+    background-image: url(login.jpg);
+    background-size: cover;
+  }
