@@ -1,0 +1,8 @@
+.roomInfo-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: solid black;
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
