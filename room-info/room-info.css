@@ -35,7 +35,7 @@ p {
 }
 
 .hotelBarBox p {
-    border-left: 1px solid whitesmoke;
+    border-left: 1px solid black;
     padding: 0 10px;
     white-space: nowrap; 
 }
