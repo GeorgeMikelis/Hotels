@@ -39,3 +39,8 @@ p {
     padding: 0 10px;
     white-space: nowrap; 
 }
+
+.resizeImg {
+    width: fit-content;
+    height: auto;
+}
