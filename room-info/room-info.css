@@ -13,7 +13,6 @@
     justify-content: space-between;
     height: 2.5rem;
     background-color: #F15B25;
-    font-size: 24px;
     font-family: "Roboto Slab", serif;
     color: whitesmoke;
 }
@@ -35,7 +34,8 @@ p {
 }
 
 .hotelBarBox p {
-    border-left: 1px solid black;
+    font-size: large;
+    border-left: 1px solid whitesmoke;
     padding: 0 10px;
     white-space: nowrap; 
 }
@@ -61,4 +61,6 @@ p {
     justify-content: center;
     margin: 0.5rem 0;
     border: 2px dashed black;
+    font-size: medium;
+    font-weight: bold;
 }
