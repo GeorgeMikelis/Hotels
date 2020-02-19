@@ -44,3 +44,28 @@ p {
     width: fit-content;
     height: auto;
 }
+
+.roomBar {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: #F15B25;
+    font-size: 24px;
+    font-family: "Roboto Slab", serif;
+    color: whitesmoke;
+}
+
+.roomBarBox {
+    padding: 0.5rem 0.5rem;
+    font-size: large;
+    font-family: "Roboto Slab", serif;
+    color: whitesmoke;
+    display: flex;
+}
+
+.roomBarBox p {
+    border-left: 1px dashed whitesmoke;
+    padding: 0 10px;
+    white-space: nowrap; 
+}
