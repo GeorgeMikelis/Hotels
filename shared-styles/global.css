@@ -134,3 +134,18 @@ label {
   font-weight: bold;
   color: rgb(66, 66, 66);
 }
+
+.checked {
+  color:orange
+}
+
+.heart{
+  color: red;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+
+.no-border {       
+  border:none !important;
+}
