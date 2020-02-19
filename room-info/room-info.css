@@ -76,3 +76,17 @@ p {
     height: auto;
     width: auto;
   }
+
+  .bookBox{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex; 
+    width: fit-content;
+    height:2rem;
+    color: whitesmoke;
+    background-color: #D80D0D;
+    font-size: medium;
+    white-space: nowrap;
+    padding: 0 10px;
+  }
