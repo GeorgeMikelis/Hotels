@@ -93,3 +93,18 @@ p {
     align-items: center;
     display: flex; 
 }
+
+hl.dashed {
+    border-top: 2px dashed black;
+}
+  
+.revContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.submitContainer{
+    display: flex;
+    justify-content: center;
+}
