@@ -1,0 +1,122 @@
+label{
+    width: 5rem;
+}
+
+ol{
+    padding: 1rem;
+}
+
+.fTitle{
+    align-self: center;
+    font-size: 23px;
+    color:#F15B25;
+    -webkit-text-fill-color:#F15B25;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+li{
+    font-size: large;
+}
+
+.roomList-container {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.filtersContainer{
+    display: flex;
+    flex: 1;
+}
+
+.resultsContainer{
+    display: flex;
+    flex: 3;
+}
+
+.resultsBar {
+    width: auto;
+    height: 2.5rem;
+    display: flex;
+    background-color: #F15B25;
+    padding-left: 1rem;
+    font-size: 24px;
+    font-family: "Roboto Slab", serif;
+    color: whitesmoke;
+}
+
+.shortRoomDescription{
+    /* height: 10rem; */
+    width: 90%;
+    max-width: 765px;
+}
+
+.smallDescriptionText{
+    width: 70%;
+}
+
+.imgContainer{
+    width: 7rem;
+}
+
+.resizeImg {
+    width: 7rem;
+    height: auto;
+}
+
+.vl {
+    border-left: 2px solid #F15B25;
+    height: 6rem;
+  }
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    margin-block-start: 0rem;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}
+
+.barContainer{
+    display: flex;
+    width: 100%;
+}
+
+.infoBar {
+    background-color: #EEEEEE;
+    display: flex;    
+    width: auto;
+    height:40px;
+}
+
+.infoBar p {
+                
+    color: black;
+    padding: 0 100px;
+    border-right: 1px solid black;
+    font-size:14px;
+    white-space: nowrap; 
+}
+
+.costBox{
+    display: flex; 
+    height:40px;
+    padding: 0 10px;
+    color: #f2f2f2;
+    background-color: #757575;
+    font-size: 14px;
+    white-space: nowrap;
+  }
