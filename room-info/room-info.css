@@ -38,6 +38,7 @@ p {
     border-left: 1px solid whitesmoke;
     padding: 0 10px;
     white-space: nowrap; 
+    align-self: flex-end;
 }
 
 .resizeImg {
@@ -77,11 +78,13 @@ p {
     width: auto;
   }
 
-  .bookBox{
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex; 
+.bookBoxContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.bookBox{
     width: fit-content;
     height:2rem;
     color: whitesmoke;
@@ -89,4 +92,6 @@ p {
     font-size: medium;
     white-space: nowrap;
     padding: 0 10px;
-  }
+    align-items: center;
+    display: flex; 
+}
