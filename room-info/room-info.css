@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    /* border: solid black; */
     margin-right: 8rem;
     margin-left: 8rem;
 }
@@ -41,11 +40,6 @@ p {
     align-self: flex-end;
 }
 
-.resizeImg {
-    width: fit-content;
-    height: auto;
-}
-
 .roomBar {
     align-items: center;
     width: auto;
@@ -70,41 +64,6 @@ p {
     height: 3rem;
 }
 
-.vl {
-    border-left: 2px solid #F15B25;
-    height: auto;
-    width: auto;
-  }
-
-.bookBoxContainer{
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
-
-.bookBox{
-    width: fit-content;
-    height:2rem;
-    color: whitesmoke;
-    background-color: #D80D0D;
-    font-size: medium;
-    white-space: nowrap;
-    padding: 0 10px;
-    align-items: center;
-    display: flex; 
-}
-
 hl.dashed {
     border-top: 2px dashed black;
-}
-  
-.revContainer{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.submitContainer{
-    display: flex;
-    justify-content: center;
 }
