@@ -24,14 +24,6 @@
     display: flex;
 }
 
-p {
-    display: block;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 .hotelBarBox p {
     font-size: large;
     border-left: 1px solid whitesmoke;
