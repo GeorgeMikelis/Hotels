@@ -14,6 +14,41 @@ body {
   flex-grow: 1;
 }
 
+.generic-containerLanding {
+  background-image: url(landingScreen.jpeg);
+  background-size: cover;
+}
+
+.generic-containerLogin {
+  background-image: url(login.jpg);
+  background-size: cover;
+}
+
+.form {
+  margin: auto;
+  min-width: 650px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px black;
+  opacity: 0.9;
+}
+
+.login-form {
+  min-width: 450px;
+  max-height: 200px;
+  background-color: rgba(127, 127, 127, 0.5);
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
+
+.login-form * {
+  align-self: start;
+  margin-top: 0.5rem;
+}
+
+
 .title {
   padding: 0.5rem 0.5rem;
   font-size: 24px;
@@ -150,3 +185,10 @@ label {
   border:none !important;
 }
 
+ol{
+  padding: 1rem;
+}
+
+button {
+  align-self: center;
+}
