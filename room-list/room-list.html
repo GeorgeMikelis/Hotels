@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../shared-styles/flexboxgrid.css" />
     <link rel="stylesheet" href="../shared-styles/style.css" />
     <link rel="stylesheet" href="../shared-styles/spacing.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.0/css/pikaday.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -50,6 +52,24 @@
                     <option value="threeBeds">3 Beds</option>
                     <option value="fourBeds">4 Beds</option>
                 </select>
+                <p>
+                    <label for="amount">Price range:</label>
+                    <input type="text" id="amount" readonly style="border:0; color:#7c4200; font-weight:bold;">
+                  </p>
+                   
+                  <div id="slider-range"></div>
+                
+                <label for="datepicker">Date:</label>
+                <br />
+                2 months <input type="text" id="datepicker-2months">
+                <br />
+                3 months, main aligned to right <input type="text" id="datepicker-3months-right">
+
+                <h2>What is this?</h2>
+
+                <p>Since version 1.0 Pikaday is a stable and battle tested date-picker. Feel free to use it however you like but please report any bugs or feature requests to the <a href="https://github.com/Pikaday/Pikaday/issues">GitHub issue tracker</a>, thanks!</p>
+
+    <p class="small">Copyright © 2013 <a href="https://dbushell.com/">David Bushell</a> | BSD &amp; MIT license | Example by <a href="https://github.com/MoOx">MoOx</a></p>
             </div>
             <div class="col mt-3 ml-3 resultsContainer">
                 <div class="resultsBar">
@@ -84,6 +104,24 @@
             <span>George Mikelis "™"</span>
         </div>
     </div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js">
+    </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js">
+    </script>
+    <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="../shared-js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.0/pikaday.min.js"></script>
 </body>
 
 </html>
