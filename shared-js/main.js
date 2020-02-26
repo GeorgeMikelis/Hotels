@@ -17,14 +17,14 @@ jQuery(document).ready(function ($) {
         },
         messages: {
             username: {
-                required: 'Ε...Το ονοματεπώνυμο είναι υποχρεωτικό.',
-                minlength: 'Λιγότερα από 2 γράμματα, no fun!',
-                maxlength: '40 Χαρακτήρες είναι πολλοί!',
+                required: 'User name is required',
+                minlength: 'No less than 2 letters',
+                maxlength: 'Max letters:40',
 
             },
             pass: {
-                minlength:'Ο κωδικός πρέπει να είναι μεγαλύτερος από 8 χαρακτήρες',
-                required: 'Παρακαλώ δώστε password' ,
+                minlength:'Password must contain at least 8 characters',
+                required: 'Please give a password' ,
             },
         }
     });
@@ -32,5 +32,5 @@ jQuery(document).ready(function ($) {
     $.validator.addMethod("Uppercase", function (value, element) {
         return this.optional(element) || /[Α-Ω]\S+/.test(value);
     },
-        "Γράψτε το πρώτο γράμμα κεφαλαίο!");
+        "First letter must be upercase");
 });
