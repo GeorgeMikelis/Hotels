@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../shared-styles/style.css" />
     <link rel="stylesheet" href="../shared-styles/spacing.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.0/css/pikaday.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.0/css/pikaday.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -55,21 +55,16 @@
                 <p>
                     <label for="amount">Price range:</label>
                     <input type="text" id="amount" readonly style="border:0; color:#7c4200; font-weight:bold;">
-                  </p>
-                   
-                  <div id="slider-range"></div>
-                
+                </p>
+                <div class="slider-wrapper">
+                    <div id="slider-range"></div>
+                </div>
+
                 <label for="datepicker">Date:</label>
+                <input type="text" id="datepicker-2months">
                 <br />
-                2 months <input type="text" id="datepicker-2months">
-                <br />
-                3 months, main aligned to right <input type="text" id="datepicker-3months-right">
+                <input type="text" id="datepicker-3months-right">
 
-                <h2>What is this?</h2>
-
-                <p>Since version 1.0 Pikaday is a stable and battle tested date-picker. Feel free to use it however you like but please report any bugs or feature requests to the <a href="https://github.com/Pikaday/Pikaday/issues">GitHub issue tracker</a>, thanks!</p>
-
-    <p class="small">Copyright © 2013 <a href="https://dbushell.com/">David Bushell</a> | BSD &amp; MIT license | Example by <a href="https://github.com/MoOx">MoOx</a></p>
             </div>
             <div class="col mt-3 ml-3 resultsContainer">
                 <div class="resultsBar">
@@ -77,13 +72,15 @@
                 </div>
                 <div class="row shortRoomDescription mt-3 ml-1 mr-1">
                     <div class="imgContainer ">
-                        <img src="room-1.jpg"class="resizeImg">
+                        <img src="room-1.jpg" class="resizeImg">
                     </div>
                     <div class="vl ml-1 mr-1"></div>
                     <div class="col smallDescriptionText">
                         <h3>HILTON HOTEL</h3>
                         <h5>ATHENS, ZWGRAFOU</h5>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div class="row justify-end mt-1">
                             <button type="button" class="room-btn">Go to Room Page</button>
                         </div>
@@ -96,30 +93,27 @@
                             <p style="padding: 0 100px;">Count of Guests: 1</p>
                             <p style="padding: 0 100px;" class="no-border">Type of Room: Single Room</p>
                         </div>
-                    </div>                       
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer">
             <span>George Mikelis "™"</span>
         </div>
+
     </div>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
     <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js">
-    </script>
+        src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js">
+        </script>
     <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js">
-    </script>
-    <script
-    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-    crossorigin="anonymous">
-    </script>
+        src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js">
+        </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous">
+        </script>
     <script type="text/javascript" src="../shared-js/main.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.0/pikaday.min.js"></script>
 </body>
